@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'MBFCanno'; 
+    src: url('../../../src/fonts/canno-5541776/MBF\ Canno.ttf') format('truetype'),
+    url('../../fonts/canno-5541776/MBF\ Canno.otf') format('opentype');
+}
+
+.logo{
+    height: 2em;
+}
+.navbar{
+    height: 5em;
+    background-color: #fff;
+}
+.toggle-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .toggle-icon {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background-color: #cd6242;
+    border:solid 0.2em #cd6242;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  .toggle-icon::before,
+  .toggle-icon::after {
+    content:'';
+    position: absolute;
+    background-color: #233746;
+    width: 30px;
+    height: 2px;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  .toggle-icon::before {
+    top: -8px;
+  }
+  
+  .toggle-icon::after {
+    bottom: -8px;
+  }
+  
+  .toggle-button.open .toggle-icon {
+    transform: rotate(45deg);
+  }
+  
+  .toggle-button.open .toggle-icon::before {
+    transform: rotate(-45deg) translate(-5px, -7px);
+  }
+  
+  .toggle-button.open .toggle-icon::after {
+    opacity: 0;
+  }
+  
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 230px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 999;
+    transition: left 0.3s;
+  }
+  
+  .nav-menu-open {
+    left: 0;
+  }
+.nav-item{
+    font-family:MBFCanno;
+    font-weight: 900;
+    scale: 1.1;
+    margin-right: 4em;
+    color: #233746;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+}
+.nav-item:hover{
+    color: #cd6242;
+    scale: 1.2;
+}
