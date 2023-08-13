@@ -13,7 +13,7 @@ function HeroSetion() {
            animate={{ opacity: 1, scale: 1 }}
            transition={{ duration: 1 }} src={Photo} alt={Photo} className='img-fluid ban-img' />
         </div>
-        <div className='container mt-auto mb-auto pt-4 col-11  col-md-6 col-lg-6 text-center'>
+        <div className='container mt-auto mb-auto col-11 pb-4 col-md-6 col-lg-6 text-center'>
           
           <motion.div
            initial={{ opacity: 0, scale: 0.6 }}

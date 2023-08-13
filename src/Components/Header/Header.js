@@ -3,6 +3,7 @@ import "./Header.css";
 import { motion } from "framer-motion";
 import logo from '../../Images/logo.png';
 import { Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -13,6 +14,7 @@ function Header() {
   };
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    setIsNavOpen(false);
   };
   useEffect(() => {
     const handleResize = () => {
@@ -59,10 +61,10 @@ function Header() {
               className={`ms-auto`}
             >
               <div className='d-flex'>
-                <div className='nav-item'>HOME</div>
-                <div className='nav-item'>ABOUT</div>
-                <div className='nav-item'>PROJECTS</div>
-                <div className='nav-item'>CONECT ME</div>
+                <Link className='nav-item' to='/'>HOME</Link>
+                <Link className='nav-item' to='/about' >ABOUT</Link>
+                <Link className='nav-item' to='/projects'>PROJECTS</Link>
+                <Link className='nav-item' to='/contact'>CONECT ME</Link>
               </div>
             </motion.div>
           )}
@@ -91,6 +93,7 @@ function Header() {
               alt='logo'
             />
           </motion.div>
+          <Link to='/'>
           <motion.div
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -99,6 +102,8 @@ function Header() {
           >
             HOME
           </motion.div>
+          </Link>
+          <Link to='/about'>
           <motion.div
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -107,6 +112,8 @@ function Header() {
           >
             ABOUT
           </motion.div>
+          </Link>
+          <Link to='/projects'>
           <motion.div
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -115,6 +122,8 @@ function Header() {
           >
             PROJECTS
           </motion.div>
+          </Link>
+          <Link to='/contact'>
           <motion.div
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -123,6 +132,7 @@ function Header() {
           >
             CONNECT ME
           </motion.div>
+          </Link>
         </div>
       </motion.div>)}
     </>

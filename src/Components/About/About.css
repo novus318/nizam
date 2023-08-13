@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Games'; 
+    src: url('../../../src/fonts/games-76425037/Games.ttf') format('truetype'),
+    url('../../fonts/games-76425037/Games.otf') format('opentype');
+}
+
+.me{
+    cursor: pointer;
+    font-family:Games;
+    letter-spacing: 0.2em;
+}
+.para{
+    font-family:'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
+    color: #233746;
+    font-weight: 700;
+    text-align: justify;
+}
