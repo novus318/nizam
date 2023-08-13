@@ -1,3 +1,31 @@
+@font-face {
+    font-family: 'MBFCanno'; 
+    src: url('../../../src/fonts/canno-5541776/MBF\ Canno.ttf') format('truetype'),
+    url('../../fonts/canno-5541776/MBF\ Canno.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Talks'; 
+    src: url('../../../src/fonts/talks-76425176/Talks.ttf') format('truetype'),
+    url('../../fonts/talks-76425176/Talks.otf') format('opentype');
+}
 .banner{
-    padding-top: 5em;
+    background-color: #fff;
+}
+.ban-img{
+    border-radius: 45%;
+    border-bottom: solid 0.8em #cd6242;
+    border-right: solid 0.1em #cd6242;
+    padding: 2em;
+}
+.name{
+    font-family:MBFCanno;
+    color: #233746;
+    font-weight: 500 !important;
+    letter-spacing: 0.2em;
+}
+.slogan{
+    font-family:MBFCanno;
+    color: #cd6242;
+    font-weight: 500 !important;
+    letter-spacing: 0.2em;
 }

@@ -11,7 +11,9 @@ function Header() {
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
   };
-
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   useEffect(() => {
     const handleResize = () => {
       setIsSmallScreen(window.innerWidth <= 950);
@@ -40,6 +42,7 @@ function Header() {
             className='logo ms-3'
             src={logo}
             alt='logo'
+            onClick={scrollToTop}
           />
 
           {isSmallScreen && (

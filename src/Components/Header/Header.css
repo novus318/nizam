@@ -6,6 +6,7 @@
 
 .logo{
     height: 2em;
+    cursor: pointer;
 }
 .navbar{
     height: 5em;
