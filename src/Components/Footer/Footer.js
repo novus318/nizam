@@ -21,11 +21,11 @@ import {
               <MDBRow className="justify-content-center m-auto">
                 <h3 className="text-center f-h">Connect me</h3>
                 <div className="col-12 col-md-6 mt-auto mb-auto text-center">
-                  <MDBIcon size='3x' onClick={()=>{window.open(`https://wa.me/${phoneNumber}`, "_blank")}} className="p-3 s-icons" fab icon="whatsapp-square" />
-                  <MDBIcon size='3x' onClick={()=>{window.open(`mailto:${emailAddress}`, "_blank")}} className="p-3 s-icons" fas icon="envelope" />
-                  <MDBIcon size='3x' onClick={()=>{window.open('https://www.linkedin.com/in/muhammednizamudheen')}} className="s-icons p-3" fab icon="linkedin" />
-                  <MDBIcon size='3x' onClick={()=>{window.open('https://github.com/novus318')}} className="s-icons p-3 " fab icon="github" />
-                  <MDBIcon size='3x' onClick={()=>{window.open('https://instagram.com/n_i_zam___?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D')}} className="s-icons p-3" fab icon="instagram" />
+                  <MDBIcon size='3x' onClick={()=>{window.open(`https://wa.me/${phoneNumber}`, "_blank")}} className="p-2 s-icons" fab icon="whatsapp-square" />
+                  <MDBIcon size='3x' onClick={()=>{window.open(`mailto:${emailAddress}`, "_blank")}} className="p-2 s-icons" fas icon="envelope" />
+                  <MDBIcon size='3x' onClick={()=>{window.open('https://www.linkedin.com/in/muhammednizamudheen')}} className="s-icons p-2" fab icon="linkedin" />
+                  <MDBIcon size='3x' onClick={()=>{window.open('https://github.com/novus318')}} className="s-icons p-2 " fab icon="github" />
+                  <MDBIcon size='3x' onClick={()=>{window.open('https://instagram.com/n_i_zam___?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D')}} className="s-icons p-2" fab icon="instagram" />
                 </div>
               </MDBRow>
             </section>
@@ -35,7 +35,7 @@ import {
             className="text-center p-3 mt-2"
             style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
           >
-            &copy; 2023 Designed & Developed by{" "}
+            &copy; 2023 by{" "}
             <span className="name" onClick={scrollToTop}>Muhammed Nizamudheen M</span>
             </div>
         </MDBFooter>
