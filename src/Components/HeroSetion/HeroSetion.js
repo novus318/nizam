@@ -18,7 +18,7 @@ function HeroSetion() {
           <motion.div
            initial={{ opacity: 0, scale: 0.6 }}
            animate={{ opacity: 1, scale: 1 }}
-           transition={{ duration: 0.9 }} className='display-3 name'>Muhammed Nizamudheen M
+           transition={{ duration: 0.9 }} className='display-3 name1'>Muhammed Nizamudheen M
            </motion.div>
            <motion.div
            initial={{ opacity: 0, scale: 0.6 }}

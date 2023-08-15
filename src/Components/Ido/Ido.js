@@ -5,7 +5,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import mongo from '../../Images/mongo.png'
-import express from '../../Images/Expressjs.png'
+import express from '../../Images/expressjs.png'
 import react from '../../Images/physics (1).png'
 import node from '../../Images/node-js.png'
 import JS from '../../Images/js.png'
