@@ -17,7 +17,6 @@ function AboutPage() {
   'React',
   'Node.js',
   'MongoDB',
-  'HTML',
   'CSS',
   'Git',
   'Express.js',
@@ -94,7 +93,6 @@ function AboutPage() {
 </div>
       </div>
 
-      {/* Education Section */}
       <div className='container mt-5'>
       <motion.h1
             className="me"
@@ -111,24 +109,73 @@ function AboutPage() {
            >Education</motion.span>
           </motion.h1>
         <div className='row'>
-          <div className='col-md-6'>
-            <h4>[Degree] - [University]</h4>
-            <p>[Year]</p>
+          <div className='col-12'>
+            <h4 className='para'>Web Development <MDBIcon fas icon="angle-double-right" style={{color:'#cd6242'}}/> Self-taught</h4>
+            <p className='para'>[Progress]</p>
+            <ul>
+              <li className='list'>Learned various web development technologies and frameworks.</li>
+              <li className='list'>Built projects for practical skills.</li>
+              <li className='list'>
+          Developed responsive and user-friendly websites using my skills.
+        </li>
+        <li className='list'>
+          Built RESTful APIs using Node.js and Express.js for backend development.
+        </li>
+        <li className='list'>
+          Managed version control system using Git and GitHub.
+        </li>
+            </ul>
           </div>
-          {/* Add more education entries */}
+          <div className='col-12'>
+            <h4 className='para'>B.VOC-Software Development <MDBIcon fas icon="angle-double-right" style={{color:'#cd6242'}}/> St.Aloysius College (Mangalore)</h4>
+            <p className='para'>[2021-2023_March]</p>
+            <ul>
+            <li className='list'>
+          Enrolled in a software development program at St.Aloysius (Autonomus) College.
+        </li>
+        <li className='list'>Attended classes on basic programming,data structure,and networking</li>
+        <li className='list'>Completed the 2nd year and decided to focus on self-learning.</li>
+            </ul>
+          </div>
+          <div className='col-12'>
+            <h4 className='para'>Higher Secondary <MDBIcon fas icon="angle-double-right" style={{color:'#cd6242'}}/> AKGVHSS (Payyannur)</h4>
+            <p className='para'>[2019-2021]</p>
+            <ul>
+            <li className='list'>Completed higher secondary education with a focus on science.</li>
+            </ul>
+          </div>
         </div>
       </div>
 
-      {/* Experience Section */}
       <div className='container mt-5'>
-        <h2 className='text-center mb-4'>Experience</h2>
+      <motion.h1
+            className="me"
+            initial={{ opacity: 0, y: 25 }}
+            animate={{ opacity: 1, y: 0, color: "#233746" }}
+            transition={{ duration: 0.2}}
+            style={{
+              cursor: "pointer",
+              transition: "color 0.2s ease",
+            }}
+          >
+            <MDBIcon fas icon="arrow-circle-right" style={{color:'#cd6242'}}/><motion.span
+            whileHover={{color:'#cd6242'}}
+           >Technical experience</motion.span>
+          </motion.h1>
         <div className='row'>
-          <div className='col-md-6'>
-            <h4>[Position] - [Company]</h4>
-            <p>[Date]</p>
-            <p>[Description]</p>
+          <div className='col-12'>
+          <h4 className='para'>Freelance <MDBIcon fas icon="angle-double-right" style={{color:'#cd6242'}}/> Winndeal(UAE)</h4>
+            <p className='para'>[2023]</p>
+            <ul>  
+            <li className='list'>Crafted a project for Winndeal-IT Solutions in UAE.</li>
+            <li className='list'>Completed the project successfully within the specified timeframe.</li>
+            <li className='list'>
+          Developed and deliver a quality solution.
+        </li>
+        <li className='list'>Utilized React and other frame works to achieve the project's objectives.</li>
+        <span onClick={()=>{window.open('https://winndeal.com/')}} className='list' style={{color:'#cd6242',cursor:'pointer'}}>winndeal.com</span>
+            </ul>
           </div>
-          {/* Add more experience entries */}
         </div>
       </div>
       <Footer/>

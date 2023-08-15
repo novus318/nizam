@@ -110,7 +110,7 @@ function Ido() {
       >
 
         <h4 className='para text-center'>From concept to deployment, I provide end-to-end development solutions.
-        I Develop on analyzing problems and enhance user experiences.</h4>
+        I Develop by analyzing problems and enhance user experiences.</h4>
       </motion.div>
             </motion.div>
      </div>

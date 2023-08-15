@@ -16,6 +16,10 @@ import {
       <div className="mt-5">
         <div className="shadow-overlay"></div>
         <MDBFooter className="footer pt-4" color="white">
+        <section className="text-center col-11 m-auto cotainer">
+          <h2 className="f-h">declaration</h2>
+          <h5 className="f-p">I hereby declare that all the information provided here is authentic to the best of my knowledge.</h5>
+        </section>
           <div className="container-fluid">
             <section>
               <MDBRow className="justify-content-center m-auto">

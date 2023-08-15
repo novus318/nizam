@@ -32,3 +32,8 @@ scale: 1.1;
     color: #fff;
     letter-spacing: 0.2em;
 }
+.f-p{
+    font-family:'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
+    color: #ffffff;
+    font-weight: 700 !important;
+}
