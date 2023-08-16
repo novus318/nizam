@@ -25,3 +25,22 @@
       color:#cd6242;
       scale: 1.1;
     }
+
+    .input{
+      border-radius: 0.2em;
+      border:none;
+      outline:solid 2px #cd6242;
+      font-family:'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
+    color: #233746;
+    font-weight: 700 !important;
+    font-size: large;
+    }
+    .form-btn{
+      background-color: #233746;
+      color: #fff !important;
+      border-radius: 0.3em;
+      outline: none;
+      border: none;
+      font-family: Games;
+      letter-spacing: 0.3em;
+    }

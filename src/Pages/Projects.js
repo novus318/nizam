@@ -11,6 +11,7 @@ import {
   MDBCardText,
   MDBIcon,
 } from 'mdb-react-ui-kit';  
+import Layout from '../Components/Layout';
 
 const video=[
   {
@@ -131,6 +132,7 @@ function Projects() {
 
   return (
     <>
+    <Layout title={'Projects'}>
       <Header />
       <div className="container mt-5 pt-5">
         <div className="row">
@@ -312,6 +314,7 @@ function Projects() {
         </div>
       </div>
       <Footer />
+      </Layout>
     </>
   );
 }

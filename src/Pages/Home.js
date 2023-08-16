@@ -5,6 +5,7 @@ import HeroSetion from '../Components/HeroSetion/HeroSetion';
 import Ido from '../Components/Ido/Ido';
 import Footer from '../Components/Footer/Footer.js';
 import { useLocation } from 'react-router-dom';
+import Layout from '../Components/Layout';
 function Home() {
   const location = useLocation();
 
@@ -15,11 +16,13 @@ function Home() {
   }, [location]);
   return (
     <>
+    <Layout keywords={'javascript,loopcod,nizamudheen,developer,software engineer,mern developer,web application'}>
     <Header/>
     <HeroSetion/>
     <About/>
     <Ido/>
     <Footer/>
+    </Layout>
     </>
   )
 }

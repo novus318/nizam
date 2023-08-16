@@ -11,6 +11,7 @@ import Photoshop from '../Images/icons8-adobe-photoshop.svg'
 import Firebase from '../Images/icons8-firebase.svg'
 import Motion from '../Images/framer-motion.svg'
 import Postman from '../Images/postman-icon.svg'
+import Layout from '../Components/Layout';
 function AboutPage() {
   const location = useLocation();
   const skills = ['JavaScript',
@@ -38,6 +39,7 @@ function AboutPage() {
   }, [location]);
   return (
     <>
+    <Layout title={'About me'}>
     <Header/>
     <div className='mt-5 pt-5'>
       <About/>
@@ -179,6 +181,7 @@ function AboutPage() {
         </div>
       </div>
       <Footer/>
+      </Layout>
     </>
   )
 }
