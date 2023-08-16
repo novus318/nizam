@@ -5,6 +5,7 @@ import {
   } from "mdb-react-ui-kit";
   import "./Footer.css";
   import React from "react";
+import { Link } from "react-router-dom";
   function Footer() {
     const scrollToTop = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -40,7 +41,7 @@ import {
             style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
           >
             &copy; 2023 by{" "}
-            <span className="name" onClick={scrollToTop}>Muhammed Nizamudheen M</span>
+            <Link to='/'><span className="name">Muhammed Nizamudheen M</span></Link>
             </div>
         </MDBFooter>
       </div>

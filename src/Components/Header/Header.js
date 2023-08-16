@@ -37,6 +37,7 @@ function Header() {
         className={`navbar ${isNavOpen ? 'nav-open' : ''}`}
       >
         <motion.div className='container'>
+          <Link to='/'>
           <motion.img
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -44,8 +45,8 @@ function Header() {
             className='logo ms-3'
             src={logo}
             alt='logo'
-            onClick={scrollToTop}
           />
+          </Link>
 
           {isSmallScreen && (
             <button className={`toggle-button ${isNavOpen ? 'open' : ''}`} onClick={toggleNav}>
