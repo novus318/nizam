@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import logo from '../../Images/logo.png';
 import { Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import Resume from '../../Images/My resume.pdf'
 
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -12,9 +13,9 @@ function Header() {
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
   };
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    setIsNavOpen(false);
+  const downloadResume = () => {
+    const resumePdfUrl = Resume;
+    window.open(resumePdfUrl, '_blank');
   };
   useEffect(() => {
     const handleResize = () => {
@@ -66,6 +67,7 @@ function Header() {
                 <Link className='nav-item' to='/about' >ABOUT</Link>
                 <Link className='nav-item' to='/projects'>PROJECTS</Link>
                 <Link className='nav-item' to='/contact'>CONECT ME</Link>
+                <Link className='nav-item-r' onClick={downloadResume}>RESUME</Link>
               </div>
             </motion.div>
           )}
@@ -132,6 +134,16 @@ function Header() {
             className='nav-item mb-3'
           >
             CONNECT ME
+          </motion.div>
+          </Link>
+          <Link onClick={downloadResume}>
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.8 }}
+            className='nav-item-r mb-3'
+          >
+            RESUME
           </motion.div>
           </Link>
         </div>

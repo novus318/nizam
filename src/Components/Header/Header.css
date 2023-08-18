@@ -88,6 +88,19 @@
     letter-spacing: 0.2em;
     cursor: pointer;
 }
+.nav-item-r{
+  font-family:MBFCanno;
+  font-weight: 900;
+  scale: 1.1;
+  margin-right: 4em;
+  color: #cd6242;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+}
+.nav-item-r:hover{
+  color: #233746;
+  scale: 1.2;
+}
 .nav-item:hover{
     color: #cd6242;
     scale: 1.2;

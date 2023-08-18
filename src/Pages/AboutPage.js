@@ -39,7 +39,7 @@ function AboutPage() {
   }, [location]);
   return (
     <>
-    <Layout title={'About me'}>
+    <Layout title={'About me'} keywords={'about nizamudheen,web developer,muhammed nizamudheen,muhammed nizamudheen m,full-stack developer,mern,web developer'}>
     <Header/>
     <div className='mt-5 pt-5'>
       <About/>

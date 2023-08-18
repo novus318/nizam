@@ -7,9 +7,6 @@ import {
   import React from "react";
 import { Link } from "react-router-dom";
   function Footer() {
-    const scrollToTop = () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      };
    
     const phoneNumber = "+917560845014";
     const emailAddress = "nizamudheen318@gmail.com";

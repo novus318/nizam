@@ -93,7 +93,7 @@ const EMAIL_USER_ID='S9OwkwUHVt4r-2P18'
   }, [location]);
   return (
     <>
-    <Layout title={"Connect with me"} keywords={'nizamudheen m,web application,software developer,react,mern stack'}>
+    <Layout title={"Connect with me"} keywords={'nizamudheen m,muhammed nizamudheen m,muhammed nizamudheen,nizam,web application,software developer,react,mern stack,web developer'}>
         <Header />
         <div className="mt-5 pt-5">
           <motion.div

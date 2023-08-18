@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc29b6eb.css",
-    "main.js": "/static/js/main.d5c325b9.js",
+    "main.css": "/static/css/main.1b7641cd.css",
+    "main.js": "/static/js/main.0987f794.js",
     "static/media/mongo.png": "/static/media/mongo.6170bacefd8a1f69ca74.png",
     "static/media/git.png": "/static/media/git.10fb52bfd2752e8b23c0.png",
     "static/media/digital.png": "/static/media/digital.c670f90a5a6a6824ff9e.png",
@@ -11,6 +11,7 @@
     "static/media/Games.otf": "/static/media/Games.ec5406613e200cf81eab.otf",
     "static/media/Photo.svg": "/static/media/Photo.9256ee20a0e14b8038ba9a718d721df2.svg",
     "static/media/MBF Canno.ttf": "/static/media/MBF Canno.2da05442466709d851e9.ttf",
+    "static/media/My resume.pdf": "/static/media/My resume.3d2be0d5c8698600fe23.pdf",
     "static/media/physics (1).png": "/static/media/physics (1).86c8d9eba03e29814d2a.png",
     "static/media/Games.ttf": "/static/media/Games.92900190c2ab5666835d.ttf",
     "static/media/Talks.ttf": "/static/media/Talks.bc5efc4ed341b64702fb.ttf",
@@ -26,8 +27,8 @@
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
-    "index.html": "/index.html",
     "static/media/icons8-amazon-web-services.svg": "/static/media/icons8-amazon-web-services.42cf784955c53485e60b1a2fff84b1af.svg",
+    "index.html": "/index.html",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
@@ -36,11 +37,11 @@
     "static/media/icons8-adobe-illustrator.svg": "/static/media/icons8-adobe-illustrator.d2a5b8664dbcc4f49852cf5f9e53c811.svg",
     "static/media/icons8-firebase.svg": "/static/media/icons8-firebase.adcc58a026a37a3e8d9c183438e6c33d.svg",
     "static/media/framer-motion.svg": "/static/media/framer-motion.cd0e8acf350dd639e9e8c999f8539a5e.svg",
-    "main.dc29b6eb.css.map": "/static/css/main.dc29b6eb.css.map",
-    "main.d5c325b9.js.map": "/static/js/main.d5c325b9.js.map"
+    "main.1b7641cd.css.map": "/static/css/main.1b7641cd.css.map",
+    "main.0987f794.js.map": "/static/js/main.0987f794.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc29b6eb.css",
-    "static/js/main.d5c325b9.js"
+    "static/css/main.1b7641cd.css",
+    "static/js/main.0987f794.js"
   ]
 }

@@ -132,7 +132,7 @@ function Projects() {
 
   return (
     <>
-    <Layout title={'Projects'}>
+    <Layout title={'Projects'} keywords={'javascript,loopcod,nizam,muhammed nizamudheen,nizamudheen,muhammed nizamudheen M,software developer,developer,software engineer,full-stack developer,mern developer,web application,projects'}>
       <Header />
       <div className="container mt-5 pt-5">
         <div className="row">
