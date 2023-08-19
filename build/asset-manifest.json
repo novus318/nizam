@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1b7641cd.css",
-    "main.js": "/static/js/main.0987f794.js",
+    "main.js": "/static/js/main.84cb80f9.js",
     "static/media/mongo.png": "/static/media/mongo.6170bacefd8a1f69ca74.png",
     "static/media/git.png": "/static/media/git.10fb52bfd2752e8b23c0.png",
     "static/media/digital.png": "/static/media/digital.c670f90a5a6a6824ff9e.png",
@@ -10,8 +10,8 @@
     "static/media/Talks.otf": "/static/media/Talks.700e58cf22d96e7c5de3.otf",
     "static/media/Games.otf": "/static/media/Games.ec5406613e200cf81eab.otf",
     "static/media/Photo.svg": "/static/media/Photo.9256ee20a0e14b8038ba9a718d721df2.svg",
+    "static/media/My resume.pdf": "/static/media/My resume.ed5c90f4c4adfd37dfca.pdf",
     "static/media/MBF Canno.ttf": "/static/media/MBF Canno.2da05442466709d851e9.ttf",
-    "static/media/My resume.pdf": "/static/media/My resume.3d2be0d5c8698600fe23.pdf",
     "static/media/physics (1).png": "/static/media/physics (1).86c8d9eba03e29814d2a.png",
     "static/media/Games.ttf": "/static/media/Games.92900190c2ab5666835d.ttf",
     "static/media/Talks.ttf": "/static/media/Talks.bc5efc4ed341b64702fb.ttf",
@@ -38,10 +38,10 @@
     "static/media/icons8-firebase.svg": "/static/media/icons8-firebase.adcc58a026a37a3e8d9c183438e6c33d.svg",
     "static/media/framer-motion.svg": "/static/media/framer-motion.cd0e8acf350dd639e9e8c999f8539a5e.svg",
     "main.1b7641cd.css.map": "/static/css/main.1b7641cd.css.map",
-    "main.0987f794.js.map": "/static/js/main.0987f794.js.map"
+    "main.84cb80f9.js.map": "/static/js/main.84cb80f9.js.map"
   },
   "entrypoints": [
     "static/css/main.1b7641cd.css",
-    "static/js/main.0987f794.js"
+    "static/js/main.84cb80f9.js"
   ]
 }
