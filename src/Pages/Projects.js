@@ -16,19 +16,19 @@ import Layout from '../Components/Layout';
 const video=[
   {
     name:'Winndeal',
-    link:'https://dms-exp3.licdn.com/playlist/vid/D5605AQGQevwFTR47kQ/mp4-720p-30fp-crf28/0/1692022469849?e=1692770400&v=beta&t=Lm-KW9HnDfip7690ltl7gznJRz4M7H88v4Yn0-ykcH4'
+    link:'https://rr3---sn-h557snsl.c.drive.google.com/videoplayback?expire=1693074208&ei=7xjqZKXUPO-w-LYPqu2luAY&ip=2409:40f3:100a:2cb9:aeaa:69:76e9:4af7&cp=QVROVUFfU1JOSVhPOlhiOF9jZ1V5ZHhIXzgwcG9xUlJRaGt0eEgteDR0aDZSTjJmUjFDTTZPNzk&id=f9d706307c38167a&itag=22&source=webdrive&requiressl=yes&mh=fa&mm=32&mn=sn-h557snsl&ms=su&mv=m&mvi=3&pl=36&ttl=transient&susc=dr&driveid=1mixQQrL7oDmABh3Q4jFrkx5SC5AdKGe4&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=56.401&lmt=1693062596333868&mt=1693063028&subapp=DRIVE_WEB_FILE_VIEWER&txp=0001224&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIhAPDLe6uzMuuWm3AinJWmoWKfYhQEy6RBMJZqajaY_BF_AiAZVFvZ0fALg-Ij3WC-YeKfDoT1u8AZtUv3u7oilwsIGA==&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIhAIKG2uX2FnfotD1mfwocpaRg_wcVa83Kixk0eKOJuiu-AiBYbk8zgJq8VtEGvAlVostili87gVRo15cGSI-uSbFbtg==&cpn=NFpPbyJyPF66eM0Y&c=WEB_EMBEDDED_PLAYER&cver=1.20230822.01.01'
   },
   {
     name:'Sitara-Ecommerce',
-    link:'https://dms-exp3.licdn.com/playlist/vid/D5605AQFoZJvPU0IVRg/mp4-720p-30fp-crf28/0/1690807862137?e=1692774000&v=beta&t=7Yyu8r1F9QvG1eOdy5i7cD0rpHoSj3Csw4-kLnTwhyU'
+    link:'https://rr3---sn-h5576nsl.c.drive.google.com/videoplayback?expire=1693074144&ei=sBjqZPLuNMK5lAfw96_IBA&ip=2409:40f3:100a:2cb9:aeaa:69:76e9:4af7&cp=QVROVUFfU1FSRVhPOlhiOF9ia1F5ZHhIXzgwb3NtUlJRaGt0eEctdDR0aDZSTjJlVjdDTTZPNzk&id=3e021926b98c8237&itag=22&source=webdrive&requiressl=yes&mh=Rn&mm=32&mn=sn-h5576nsl&ms=su&mv=m&mvi=3&pl=36&ttl=transient&susc=dr&driveid=1xaXaKEA5jRsaxDLEIoItVsFhdZPjWnkB&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=198.553&lmt=1693063097120478&mt=1693063028&subapp=DRIVE_WEB_FILE_VIEWER&txp=0001224&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIgW4NoAJQYt7t3ZJhk1YVz-_DzvFN2BIU08_fSNz6NMlYCIQDYBJyLdcMnFi-EBZtwUo48lpEboIhvav31Frazqpb9aw==&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgTJ0n60C9dw4DaqHP4p3_xxXUVUBaDSv9vxw4TA2m2KcCIDqoZVAhKTqPoq8onnsRGuAzKS4o4TkhtkvK9dlw4vq6&cpn=jdBHFOodYbk-kBsM&c=WEB_EMBEDDED_PLAYER&cver=1.20230822.01.01'
   },
   {
     name:'Netflix-Clone',
-    link:'https://dms-exp3.licdn.com/playlist/vid/D5605AQEiZVLywH0wCQ/mp4-720p-30fp-crf28/0/1688026578655?e=1692788400&v=beta&t=0MEojA0o96Q0EwJhOjauAFRTcb2fT2DG4A1MPETnV2U'
+    link:'https://rr2---sn-npoe7nds.c.drive.google.com/videoplayback?expire=1693074011&ei=KxjqZIL0BMja-LYP3oW2-AM&ip=2409:40f3:100a:2cb9:aeaa:69:76e9:4af7&cp=QVROVUFfU1BPQlhPOlhiOF9haE55ZHhIXzgwbnBqUlJRaGt0eEYtcTR0aDZSTjJkUzRDTTZPNzk&id=da4b297c7cc31c6b&itag=22&source=webdrive&requiressl=yes&ttl=transient&susc=dr&driveid=1FHXpklZaNdxcg2X9EHI8XdOZRRvUNY2E&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=56.633&lmt=1693062595628498&subapp=DRIVE_WEB_FILE_VIEWER&txp=0001224&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIgFoSaXBkMylUBraui-BUUktaEwnL5SRPQjavQx7Sy0CcCIQDkqLVNU8LGNSASHzL_Gq7veYkj8nlmBjOiMELmdLFi8A==&cpn=bNKPtgGSL59Fmg6N&c=WEB_EMBEDDED_PLAYER&cver=1.20230822.01.01&redirect_counter=1&cm2rm=sn-h55s67z&req_id=f60acc244f63a3ee&cms_redirect=yes&cmsv=e&mh=Jb&mm=34&mn=sn-npoe7nds&ms=ltu&mt=1693062772&mv=m&mvi=2&pl=36&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgKI3rlYJsxoRuM-1sWNCchtcdN1rtPzyEwvquk_4-HywCIGukEqO4yOoVXlKN9-wum0eddhW0C57Jt4BiHn7gI3Ng'
   },
    {
     name:'Olx-Clone',
-    link:'https://dms-exp3.licdn.com/playlist/vid/D5605AQFGnL9Cy_r6NA/mp4-720p-30fp-crf28/0/1692186547534?e=1692792000&v=beta&t=jKi8Qhr4tWWc5jqPX7gxuTY90QXNSu2UQcB6UJGUK2I'
+    link:'https://rr3---sn-h557sn66.c.drive.google.com/videoplayback?expire=1693073625&ei=qRbqZOPXCP6QrvIP6ISEUA&ip=2409:40f3:100a:2cb9:aeaa:69:76e9:4af7&cp=QVROVUFfUlZQRlhPOlhiOF9naVJ5ZHhIXzg5dHFuUlJRaGt0d0wtdTR0aDZSTjFqVDhDTTZPNzk&id=6c6c25817b736eff&itag=22&source=webdrive&requiressl=yes&mh=C_&mm=32&mn=sn-h557sn66&ms=su&mv=m&mvi=3&pl=36&ttl=transient&susc=dr&driveid=1JX94eM9ZTUZVyvGnSBRPGPzr_AlULOHA&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=47.415&lmt=1693062705750289&mt=1693062543&subapp=DRIVE_WEB_FILE_VIEWER&txp=0001224&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIhAInOrA1Uwmgu--H4VxQVOjgBd81J3rgGj3uPYHgwq8USAiBnTqDoOiZYxp144jAvPiVDxsbKFkAXcm8F1QTY8OcLqA==&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAMDOfqlFPwKh4HHa_4zBw75TLmPLkilaurkH8U90KjKZAiEAxt94SfZGVTeYevT3Bnrpn9ZZLGop15qRx2hqMy_rZhw=&cpn=tmiWeaPxu0hgyYDk&c=WEB_EMBEDDED_PLAYER&cver=1.20230822.01.01'
   }
 ]
 const projects = [
