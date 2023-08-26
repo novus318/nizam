@@ -20,6 +20,7 @@ function AboutPage() {
   'MongoDB',
   'CSS',
   'Git',
+  'Payment integrations',
   'Express.js',
   'Redux',
   'RESTful APIs',
