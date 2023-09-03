@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import "./Header.css";
 import { motion } from "framer-motion";
-import logo from '../../Images/logo.png';
+import logo from '../../Images/logo.avif';
 import { Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Resume from '../../Images/My resume.pdf'

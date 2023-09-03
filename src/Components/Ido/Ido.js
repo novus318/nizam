@@ -4,20 +4,22 @@ import "../About/About.css";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import mongo from '../../Images/mongo.png'
-import express from '../../Images/expressjs.png'
-import react from '../../Images/physics (1).png'
-import node from '../../Images/node-js.png'
-import JS from '../../Images/js.png'
-import Html from '../../Images/html.png'
-import Css from '../../Images/css-3.png'
-import bootsrap from '../../Images/bootstrap.png'
-import firebase from '../../Images/firebase.png'
-import Aws from '../../Images/aws.png'
-import Digital from '../../Images/digital.png'
-import Git from '../../Images/git.png'
-import Framer from '../../Images/framer.png'
-const brandImages = [mongo,express,react,Css,node,JS,Html,bootsrap];
+import mongo from '../../Images/mongo.avif'
+import express from '../../Images/expressjs.avif'
+import react from '../../Images/physics.avif'
+import node from '../../Images/node-js.avif'
+import JS from '../../Images/js.avif'
+import Html from '../../Images/html.avif'
+import Css from '../../Images/css-3.avif'
+import bootsrap from '../../Images/bootstrap.avif'
+import firebase from '../../Images/firebase.avif'
+import Aws from '../../Images/aws.avif'
+import Digital from '../../Images/digital.avif'
+import Git from '../../Images/git.avif'
+import Framer from '../../Images/framer.avif'
+import next from '../../Images/next.avif'
+import tailwind from '../../Images/tailwind.avif'
+const brandImages = [mongo,express,react,next,tailwind,Css,node,JS,Html,bootsrap];
 const brandImages2 = [firebase,Aws,Digital,Git,Framer];
 function Ido() {
     const settings = {

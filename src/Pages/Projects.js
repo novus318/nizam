@@ -37,6 +37,15 @@ const video=[
 ]
 const projects = [
   {
+    name:'Oureply',
+    title:'A platform to share experience together',
+    description:'Whether you are a professional or a curious student, our platform connects you with individuals willing to share their experience',
+    projectPoints:[
+      "The platform's goal is to connect experienced professionals with individuals seeking guidance, promoting meaningful interactions and facilitating the exchange of knowledge."
+    ],
+    endline:'This is an upcomming project top web technologies,lets wait for the beta version....'
+  },
+  {
     name:'Winndeal',
     title: "IT Solutions Company Website",
     description: "Created a responsive web application using React, to satisfy the needs of an IT Solutions company based in the UAE...",
@@ -303,7 +312,7 @@ function Projects() {
                       src={v.link}
                       frameBorder="0"
                       allowFullScreen
-                      autoplay
+                      allow="autoplay; muted"
                       className="w-100"
                     ></iframe>
                     <MDBCardBody>
