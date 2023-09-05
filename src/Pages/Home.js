@@ -16,7 +16,7 @@ function Home() {
   }, [location]);
   return (
     <>
-    <Layout keywords={'javascript,loopcod,muhammed nizamudheen,nizamudheen,muhammed nizamudheen M,software developer,developer,software engineer,full-stack developer,mern developer,web application'}>
+    <Layout keywords={'loopcod,muhammed nizamudheen,nizamudheen,Muhammed Nizamudheen M,software developer,developer,software engineer,full-stack,mern developer,web application,nizam,nizamudheen.tech'}>
     <Header/>
     <HeroSetion/>
     <About/>

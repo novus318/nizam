@@ -5,11 +5,11 @@ import { useLocation } from 'react-router-dom';
 import { motion } from "framer-motion";
 import Footer from '../Components/Footer/Footer';
 import { MDBIcon } from 'mdb-react-ui-kit';
-import awsIcon from '../Images/icons8-amazon-web-services.svg'
-import Illustrator from '../Images/icons8-adobe-illustrator.svg'
-import Photoshop from '../Images/icons8-adobe-photoshop.svg'
-import Firebase from '../Images/icons8-firebase.svg'
-import Motion from '../Images/framer-motion.svg'
+ import awsIcon from '../Images/icons8-amazon-web-services.svg'
+ import Illustrator from '../Images/icons8-adobe-illustrator.svg'
+ import Photoshop from '../Images/icons8-adobe-photoshop.svg'
+ import Firebase from '../Images/icons8-firebase.svg'
+ import Motion from '../Images/framer-motion.svg'
 import Postman from '../Images/postman-icon.svg'
 import Layout from '../Components/Layout';
 function AboutPage() {

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1b7641cd.css",
-    "main.js": "/static/js/main.d607b8d5.js",
+    "main.js": "/static/js/main.a59bfb37.js",
     "static/media/netflix.mp4": "/static/media/netflix.e7608168d04a584e0003.mp4",
     "static/media/sitara.mp4": "/static/media/sitara.4c8d11410b32de29d849.mp4",
     "static/media/winndeal.mp4": "/static/media/winndeal.931e19be726f2c222b44.mp4",
@@ -9,8 +9,8 @@
     "static/media/tailwind.avif": "/static/media/tailwind.3549d9e451d7abb96934.avif",
     "static/media/Talks.otf": "/static/media/Talks.700e58cf22d96e7c5de3.otf",
     "static/media/Games.otf": "/static/media/Games.ec5406613e200cf81eab.otf",
-    "static/media/Photo.svg": "/static/media/Photo.9256ee20a0e14b8038ba9a718d721df2.svg",
     "static/media/My resume.pdf": "/static/media/My resume.1667424a7bb183fd4ae4.pdf",
+    "static/media/Photo.svg": "/static/media/Photo.94b48ca9a141ec6b3be229e36d1ec84c.svg",
     "static/media/MBF Canno.ttf": "/static/media/MBF Canno.2da05442466709d851e9.ttf",
     "static/media/Games.ttf": "/static/media/Games.92900190c2ab5666835d.ttf",
     "static/media/Talks.ttf": "/static/media/Talks.bc5efc4ed341b64702fb.ttf",
@@ -18,7 +18,7 @@
     "static/media/mongo.avif": "/static/media/mongo.3ad3e4ef77eb2f6dd9ae.avif",
     "static/media/git.avif": "/static/media/git.9b2fa736d8474ecfeb70.avif",
     "static/media/aws.avif": "/static/media/aws.12ac64d7a65cfe1e6d93.avif",
-    "static/media/postman-icon.svg": "/static/media/postman-icon.da1da9ed8c0155586b90272c462f3e87.svg",
+    "static/media/postman-icon.svg": "/static/media/postman-icon.72c795ca87a8beef66a6edcb3e14ead5.svg",
     "static/media/digital.avif": "/static/media/digital.1fbaebf4d83cf1ce79de.avif",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -26,8 +26,8 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/physics.avif": "/static/media/physics.27a6fc811f75aa69485c.avif",
     "static/media/expressjs.avif": "/static/media/expressjs.4fc284a0812b1099b2c4.avif",
-    "static/media/icons8-amazon-web-services.svg": "/static/media/icons8-amazon-web-services.42cf784955c53485e60b1a2fff84b1af.svg",
     "static/media/next.avif": "/static/media/next.82b7d6f16c57a8df4bf6.avif",
+    "static/media/icons8-amazon-web-services.svg": "/static/media/icons8-amazon-web-services.4d77952c9123eb32e333060afba3714b.svg",
     "index.html": "/index.html",
     "static/media/logo.avif": "/static/media/logo.7b36dd997f37f12f970d.avif",
     "static/media/css-3.avif": "/static/media/css-3.e45a956958a05e8713f9.avif",
@@ -40,15 +40,15 @@
     "static/media/framer.avif": "/static/media/framer.f430ea08c5d44c9dceae.avif",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "static/media/icons8-adobe-photoshop.svg": "/static/media/icons8-adobe-photoshop.2ae54e0a93b1fe44f804e5bf1337f5d7.svg",
-    "static/media/icons8-adobe-illustrator.svg": "/static/media/icons8-adobe-illustrator.d2a5b8664dbcc4f49852cf5f9e53c811.svg",
-    "static/media/icons8-firebase.svg": "/static/media/icons8-firebase.adcc58a026a37a3e8d9c183438e6c33d.svg",
-    "static/media/framer-motion.svg": "/static/media/framer-motion.cd0e8acf350dd639e9e8c999f8539a5e.svg",
+    "static/media/icons8-adobe-photoshop.svg": "/static/media/icons8-adobe-photoshop.5e779a7378c5aefd5c836d59962871af.svg",
+    "static/media/icons8-adobe-illustrator.svg": "/static/media/icons8-adobe-illustrator.d86c7ca55feceb0b4fe7b4628ce621eb.svg",
+    "static/media/icons8-firebase.svg": "/static/media/icons8-firebase.11682c17dc6547c3114f9a412b905ace.svg",
+    "static/media/framer-motion.svg": "/static/media/framer-motion.fc75edaaf535d44fc722491d3b8a5fd5.svg",
     "main.1b7641cd.css.map": "/static/css/main.1b7641cd.css.map",
-    "main.d607b8d5.js.map": "/static/js/main.d607b8d5.js.map"
+    "main.a59bfb37.js.map": "/static/js/main.a59bfb37.js.map"
   },
   "entrypoints": [
     "static/css/main.1b7641cd.css",
-    "static/js/main.d607b8d5.js"
+    "static/js/main.a59bfb37.js"
   ]
 }
