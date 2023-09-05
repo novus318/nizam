@@ -2,7 +2,7 @@ import './HeroSetion.css'
 import React from 'react'
 import { motion } from "framer-motion"
 import { TypeAnimation } from 'react-type-animation';
-import Photo from '../../Images/Photo.svg'
+import Photo from '../../Images/Photo.avif'
 function HeroSetion() {
   return (
     <section className='banner row'>
