@@ -35,7 +35,7 @@ function Header() {
       <Navbar
         fixed="top"
         expand="md"
-        className={`navbar ${isNavOpen ? 'nav-open' : ''}`}
+        className={`navbar h-20 ${isNavOpen ? 'nav-open' : ''}`}
       >
         <motion.div className='container'>
           <Link to='/'>

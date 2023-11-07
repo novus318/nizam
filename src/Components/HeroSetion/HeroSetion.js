@@ -7,7 +7,7 @@ function HeroSetion() {
   return (
     <section className='banner row'>
       
-       <div className='col-11 col-md-5 col-lg-5 m-auto p-5'>
+       <div className='col-11 col-md-4 col-lg-4 m-auto p-5'>
         <motion.img
         initial={{ opacity: 0, scale: 1.1 }}
            animate={{ opacity: 1, scale: 1 }}

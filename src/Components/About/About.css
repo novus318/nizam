@@ -12,11 +12,11 @@
 .para{
     font-family:'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
     color: #233746;
-    font-weight: 700 !important;
+    font-weight: 600 !important;
 }
 .list{
     font-family:'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
     color: #233746;
-    font-weight: 700;
+    font-weight: 500;
     font-size: larger;
 }

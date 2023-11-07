@@ -168,9 +168,24 @@ function AboutPage() {
             whileHover={{color:'#cd6242'}}
            >Technical experience</motion.span>
           </motion.h1>
+          <div className='row'>
+          <div className='col-12'>
+          <h4 className='para'>Freelance <MDBIcon fas icon="angle-double-right" style={{color:'#cd6242'}}/> Abyzplants (UAE)</h4>
+            <p className='para'>[2023]</p>
+            <ul>  
+            <li className='list'>Crafted a project for Winndeal-IT Solutions in UAE.</li>
+            <li className='list'>Completed the project successfully within the specified timeframe.</li>
+            <li className='list'>
+          Developed and deliver a quality solution.
+        </li>
+        <li className='list'>Utilized React and other frame works to achieve the project's objectives.</li>
+        <span onClick={()=>{window.open('https://www.abyzplants.com/')}} className='list' style={{color:'#cd6242',cursor:'pointer'}}>abyzplants.com</span>
+            </ul>
+          </div>
+        </div>
         <div className='row'>
           <div className='col-12'>
-          <h4 className='para'>Freelance <MDBIcon fas icon="angle-double-right" style={{color:'#cd6242'}}/> Winndeal(UAE)</h4>
+          <h4 className='para'>Freelance <MDBIcon fas icon="angle-double-right" style={{color:'#cd6242'}}/> Winndeal (UAE)</h4>
             <p className='para'>[2023]</p>
             <ul>  
             <li className='list'>Crafted a project for Winndeal-IT Solutions in UAE.</li>

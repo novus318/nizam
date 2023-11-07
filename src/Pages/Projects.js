@@ -9,6 +9,7 @@ import sitara from '../Images/sitara.mp4'
 import netfix from '../Images/netflix.mp4'
 import olx from '../Images/olx.mp4'
 import winndeal from '../Images/winndeal.mp4'
+import abyzplants from '../Images/abyzplants.mp4'
 import {
   MDBCard,
   MDBCardBody,
@@ -18,6 +19,10 @@ import {
 import Layout from '../Components/Layout';
 
 const video=[
+  {
+    name:'Abyzplants',
+    link:abyzplants
+  },
   {
     name:'Winndeal',
     link:winndeal
@@ -37,29 +42,37 @@ const video=[
 ]
 const projects = [
   {
-    name:'Oureply',
-    title:'A platform to share experience together',
-    description:'Whether you are a professional or a curious student, our platform connects you with individuals willing to share their experience',
+    name:'Abyzplants',
+    title:'All-in-one platform for plant lovers. ',
+    description:'I had the pleasure of working on a remarkable project that catered to the growing community of plant enthusiasts in the UAE. This e-commerce platform was designed and developed from the ground up to provide an exceptional shopping experience for those who appreciate the beauty of greenery.',
     projectPoints:[
-      "The platform's goal is to connect experienced professionals with individuals seeking guidance, promoting meaningful interactions and facilitating the exchange of knowledge."
+      "The frontend of the platform was crafted using Next.js, TypeScript, and Tailwind CSS. This combination resulted in a visually stunning and responsive user interface, ensuring a seamless shopping experience across various devices.",
+      " For the backend, I chose Node.js and Express, paired with MongoDB for data storage. This robust architecture ensures data reliability and scalability, making it possible to accommodate the growing demand for plant purchases.",
+      "Admin Panel: The project included a admin panel. Vendors can easily create and edit product listings, categorize items, and efficiently manage user accounts and orders. Generating order bills is now a simplified process.",
+      "User Features: On the user side, the platform offers dynamic product listings with advanced filtering options. Shoppers can filter products by categories, prices, and perform efficient searches. The product details page provides comprehensive information, and a user-friendly cart page simplifies the checkout process.",
+      "Seamless Transactions: Stripe integration ensures secure and seamless payment processing.simplifying the purchase process.",
+      "User Engagement: User registration is straightforward, with user-friendly signup and login functionality. Registered users can manage their profiles, track their orders, and receive updates on order statuses, creating a personalized shopping experience.",
+      "Real-time Order Status Notifications: We've implemented a feature where order status updates are sent to customers via email using Nodemailer. This communication keeps buyers informed about the progress of their orders, enhancing their overall shopping experience."
+
     ],
-    endline:'This is an upcomming project top web technologies,lets wait for the beta version....'
+    endline:'It was a privilege to contribute to the world of e-commerce and plant appreciation in the UAE.',
+    websiteLink: "https://www.abyzplants.com/",
+    githubLink: "https://github.com/novus318/Abyzplants",
   },
   {
     name:'Winndeal',
     title: "IT Solutions Company Website",
-    description: "Created a responsive web application using React, to satisfy the needs of an IT Solutions company based in the UAE...",
+    description: "Created a responsive web application using Next.js, to satisfy the needs of an IT Solutions company based in the UAE...",
     projectPoints: [
       " Highlighting services, expertise, and mission, providing visitors with a clear understanding of the company's offerings.",
-      " Integrated WhatsApp and various social media platforms to facilitate easy communication between the company and its clients.",
+      " Instant Connection: Enhanced communication with WhatsApp and social media integration,making client interaction seamless.",
       " Implemented a user-friendly contact form using EmailJS, enabling visitors to reach out to the company directly. This smooth communication process enhances customer",
-      " UI design and engaging animations crafted using Framer Motion.",
+      " Engaging Design: A UI with Tailwind,Framer Motion and Gsap animations for a cutting-edge look.",
       "Compatibility with a responsive design approach. The website is optimized for various screen sizes, including smartphones, tablets, and desktops.",
-      "Implemented the chatbot as a virtual customer support representative",
     ],
     endline:'The Modern technologies and a well-structured codebase sets the project up for future scalability',
     websiteLink: "https://winndeal.com/",
-    githubLink: "https://github.com/novus318/winndeal",
+    githubLink: "https://github.com/novus318/winndealuae",
   },
   {
     name:'Sitara',

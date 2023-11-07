@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 *{
   margin: 0;
   padding: 0;
@@ -7,7 +10,9 @@
   ::-webkit-scrollbar {
     display: none;
     }  }
-
+.overflow-hidden{
+  overflow: hidden;
+}
     .go-to-top-button{
       color: #233746;
       background-color: #fff;

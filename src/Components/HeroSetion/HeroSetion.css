@@ -11,6 +11,7 @@
 .banner{
     background-color: #fff;
     padding-top: 1em;
+    overflow: hidden;
 }
 .ban-img{
     border-radius: 46%;
