@@ -173,12 +173,13 @@ function AboutPage() {
           <h4 className='para'>Freelance <MDBIcon fas icon="angle-double-right" style={{color:'#cd6242'}}/> Abyzplants (UAE)</h4>
             <p className='para'>[2023]</p>
             <ul>  
-            <li className='list'>Crafted a project for Winndeal-IT Solutions in UAE.</li>
-            <li className='list'>Completed the project successfully within the specified timeframe.</li>
+            <li className='list'> Successfully completed the project within the timeline, meeting all deadlines and client expectations.</li>
+            <li className='list'>Managed project resources efficiently to ensure the project was delivered within budget, optimizing cost-effectiveness.</li>
             <li className='list'>
-          Developed and deliver a quality solution.
+            Designed a highly scalable system, ensuring the website can accommodate increased traffic and product listings as the business grows.
         </li>
-        <li className='list'>Utilized React and other frame works to achieve the project's objectives.</li>
+        <li className='list'>Implemented testing and quality control measures, resulting in a bug-free and reliable e-commerce platform.</li>
+        <li className='list'>Maintained open communication with the client throughout the project, incorporating feedback and ensuring their vision was realized, resulting in a highly satisfied client.</li>
         <span onClick={()=>{window.open('https://www.abyzplants.com/')}} className='list' style={{color:'#cd6242',cursor:'pointer'}}>abyzplants.com</span>
             </ul>
           </div>
