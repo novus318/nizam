@@ -46,7 +46,7 @@ function Ido() {
     ]
   };
   return (
-    <div className='container-fluid mt-5'>
+    <div className='container-fluid mt-5 overflow-hidden'>
       <div className="text-center">
         <motion.h1
           className="me"
@@ -94,8 +94,7 @@ function Ido() {
             <h4 className='para'>
               <motion.span
                 whileHover={{ color: '#233746', cursor: 'pointer' }}
-                animate={{ opacity: 1, y: 0, color: "#cd6242" }}>MERN Stack :</motion.span> I specialize in developing applications using
-              MongoDB,Express.js,React,Next.js,Typescript and Node.js.
+                animate={{ opacity: 1, y: 0, color: "#cd6242" }}>Stack :</motion.span> I specialize in developing applications using MongoDB, Express.js, React, Next.js, Typescript and Node.js.
             </h4>
           </motion.div>
           <ul>

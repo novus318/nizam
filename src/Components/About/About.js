@@ -27,7 +27,7 @@ function About() {
             Me in words
           </motion.h1>
         </div>
-        <div className="row container-fluid section">
+        <div className="row container-fluid section m-auto">
           <motion.div
             ref={ref}
             className={`col-10 col-md-10 mt-2 m-auto ${

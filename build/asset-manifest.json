@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.38cb2768.css",
-    "main.js": "/static/js/main.2539486c.js",
+    "main.css": "/static/css/main.6adef994.css",
+    "main.js": "/static/js/main.874bead8.js",
     "static/media/abyzplants.mp4": "/static/media/abyzplants.03c7f23d5362282d2040.mp4",
     "static/media/winndeal.mp4": "/static/media/winndeal.df2af0d4b4564c7dc181.mp4",
     "static/media/netflix.mp4": "/static/media/netflix.e7608168d04a584e0003.mp4",
@@ -45,11 +45,11 @@
     "static/media/icons8-adobe-illustrator.svg": "/static/media/icons8-adobe-illustrator.d86c7ca55feceb0b4fe7b4628ce621eb.svg",
     "static/media/icons8-firebase.svg": "/static/media/icons8-firebase.11682c17dc6547c3114f9a412b905ace.svg",
     "static/media/framer-motion.svg": "/static/media/framer-motion.fc75edaaf535d44fc722491d3b8a5fd5.svg",
-    "main.38cb2768.css.map": "/static/css/main.38cb2768.css.map",
-    "main.2539486c.js.map": "/static/js/main.2539486c.js.map"
+    "main.6adef994.css.map": "/static/css/main.6adef994.css.map",
+    "main.874bead8.js.map": "/static/js/main.874bead8.js.map"
   },
   "entrypoints": [
-    "static/css/main.38cb2768.css",
-    "static/js/main.2539486c.js"
+    "static/css/main.6adef994.css",
+    "static/js/main.874bead8.js"
   ]
 }

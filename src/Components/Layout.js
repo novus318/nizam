@@ -35,7 +35,7 @@ function Layout({children,title, description, keywords, author}) {
       </Helmet>
       {children}
       {showGoToTop && (
-        <MDBIcon fas icon="angle-double-up" size='2x' className="go-to-top-button" onClick={scrollToTop}/>
+        <MDBIcon fas icon="angle-double-up" className="go-to-top-button" onClick={scrollToTop}/>
       )}
     </div>
   )
