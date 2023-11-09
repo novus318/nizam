@@ -5,8 +5,9 @@ import { TypeAnimation } from 'react-type-animation';
 import Photo from '../../Images/Photo.avif'
 function HeroSetion() {
   return (
-    <section className='banner row'>
-      
+   <>
+   <div className='overflow-hidden'>
+   <section className='banner row'>
        <div className='col-11 col-md-4 col-lg-4 m-auto p-5'>
         <motion.img
         initial={{ opacity: 0, scale: 1.1 }}
@@ -38,6 +39,7 @@ function HeroSetion() {
          </motion.div>
         </div>
     </section>
+    </div></>
   )
 }
 

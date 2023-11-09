@@ -8,10 +8,12 @@
     src: url('../../../src/fonts/talks-76425176/Talks.ttf') format('truetype'),
     url('../../fonts/talks-76425176/Talks.otf') format('opentype');
 }
+.overflow-hidden{
+    overflow: hidden;
+}
 .banner{
     background-color: #fff;
     padding-top: 1em;
-    overflow: hidden;
 }
 .ban-img{
     border-radius: 46%;
