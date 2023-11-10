@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.6adef994.css",
-    "main.js": "/static/js/main.874bead8.js",
-    "static/media/abyzplants.mp4": "/static/media/abyzplants.03c7f23d5362282d2040.mp4",
-    "static/media/winndeal.mp4": "/static/media/winndeal.df2af0d4b4564c7dc181.mp4",
+    "main.js": "/static/js/main.72cb82ba.js",
     "static/media/netflix.mp4": "/static/media/netflix.e7608168d04a584e0003.mp4",
+    "static/media/abyzplants.mp4": "/static/media/abyzplants.0e46e007a91a934afa65.mp4",
     "static/media/sitara.mp4": "/static/media/sitara.4c8d11410b32de29d849.mp4",
+    "static/media/winndeal.mp4": "/static/media/winndeal.e05a7ccd304b7412de7d.mp4",
     "static/media/olx.mp4": "/static/media/olx.0db6939080188c9d1118.mp4",
     "static/media/tailwind.avif": "/static/media/tailwind.3549d9e451d7abb96934.avif",
     "static/media/My resume.pdf": "/static/media/My resume.6261530f1c5a1c9a7ff8.pdf",
@@ -46,10 +46,10 @@
     "static/media/icons8-firebase.svg": "/static/media/icons8-firebase.11682c17dc6547c3114f9a412b905ace.svg",
     "static/media/framer-motion.svg": "/static/media/framer-motion.fc75edaaf535d44fc722491d3b8a5fd5.svg",
     "main.6adef994.css.map": "/static/css/main.6adef994.css.map",
-    "main.874bead8.js.map": "/static/js/main.874bead8.js.map"
+    "main.72cb82ba.js.map": "/static/js/main.72cb82ba.js.map"
   },
   "entrypoints": [
     "static/css/main.6adef994.css",
-    "static/js/main.874bead8.js"
+    "static/js/main.72cb82ba.js"
   ]
 }
